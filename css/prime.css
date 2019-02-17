@@ -29,6 +29,8 @@ BODY {
     border-radius: 50%;
 	width:25%;
 	height:25%;
+	display: block;
+	margin:auto;
 }
 
 #bibliography {
