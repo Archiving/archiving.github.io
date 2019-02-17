@@ -1,25 +1,11 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 	<title>Andy Ma, Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/prime.css"/>
 	<link rel="icon" href="favicon.ico"/>
-	<script type="text/javascript" src="js/typed.js"/>
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css" />
 </head>
-
-
-<script src="typed.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-      Typed.new('.element', {
-        strings: ["Hey There! I'm Andy Ma."],
-        typeSpeed: 40
-      });
-  });
-</script>
-
 <body>
 
 <svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,46 +52,39 @@
    </defs>
 </svg>
 
-<div class="container">
-	<h1 class="element">Andy Ma, Developer</h1>
-	<hr class="solid-line"></hr>
-	
-	<div id="expertise">
-		<section>
-		
-			<a href=""><img class="img-circle" src="bib.jpg"></img></a>
-			<div id="bibliography">
-			<ul class = "navbar">
-			<li><svg class="icon pos"><use xlink:href="#icon-mail4"></use></svg><a class="link-1" href="resume.html" style="text-decoration:none">Resume</a></li>
-			<li><svg class="icon pos"><use xlink:href="#icon-git"></use></svg><a class="link-1" href="portfolio.html" style="text-decoration:none">Portfolio</a></li>
-			<li><svg class="icon pos"><use xlink:href="#icon-old-phone"></use></svg><a class="link-1" href="contact.html" style="text-decoration:none">Contact</a></li>
-			</ul>
-			</div>
-			<br></br>
-			<h2 class="subhead">
-				<svg class="icon pos"><use xlink:href="#icon-keyboard"></use></svg>
-				Experienced in Application and Website Development
-			</h2>
-			<p>
-			I am much more experienced in application development (on multiple platforms and multiple frameworks) with Java and C++. 
-			I can also write C#, C and Python. My Web development skills include HTML, CSS, JavaScript and some knowledge of PHP.
-			Some Application frameworks I am famaliar with include <a target="_blank" style="text-decoration:none;" href="https://www.opengl.org/">OpenGL</a>, <a target="_blank" style="text-decoration:none;" href="https://libgdx.badlogicgames.com/">libGDX</a>, and <a target="_blank" style="text-decoration:none;" href="https://www.sfml-dev.org/">SFML</a>.
-			</p>
-		</section>
-		
-		<section>
-			<h2 class="subhead">
-				<svg class="icon pos"><use xlink:href="#icon-earth"></use></svg>
-				Familiar with Multiple Frameworks
-			</h2>
-			<p>
-			I am familiar with multiple application development frameworks, and have a broad knowledge of different game APIs.
-			I am connected to the modding community in the games I play, whether I am creating or if I am just interested in the various APIs I come across.
-			</p>
-		</section>
-	</div>
+<a href="resume.html" style="color:black;text-decoration:none;"><h1 class="title">Portfolio</h1></a>
+<hr class="solid-line"></hr>
+
+<div id="expertise">
+<div id="bibliography-center">
+	<ul class = "navbar-center">
+		<li><svg class="icon pos"><use xlink:href="#icon-info"></use></svg><a class="link-1" href="index.html" style="text-decoration:none">Home</a></li>
+		<li><svg class="icon pos"><use xlink:href="#icon-mail4"></use></svg><a class="link-1" href="resume.html" style="text-decoration:none">Resume</a></li>
+		<li><svg class="icon pos"><use xlink:href="#icon-old-phone"></use></svg><a class="link-1" href="contact.html" style="text-decoration:none">Contact</a></li>
+	</ul>
+</div>
+<br></br>
+<h2 class="subhead"><svg class="icon pos"><use xlink:href="#icon-git"></use></svg><a target="_blank" href="https://github.com/Archiving/sight" style="text-decoration:none">OpenCV Writing Recognization</a></h2>'
+<p style="margin-top:-15px">
+This project is done in OpenCV C++, a computer vision library, with the objective to recognize numbers from an image and parse them through the computer.
+</p>
+<img style="display: block; margin: auto; padding: 20px;"src="css/code.png"></img>
+
+
+<h2 class="subhead"><svg class="icon pos"><use xlink:href="#icon-git"></use></svg><a target="_blank" href="https://github.com/Archiving/pathfinding" style="text-decoration:none">OpenGL Path Creator</a></h2>'
+<p style="margin-top:-15px">
+A C++ OpenGL/GLUT library which creates a n by n grid, and allows you to populate it with blocked, goal and player cells. This is then written into an array file so that the robot may read the path created by the user, and allows the robot to know its surroundings for pathfinding.
+</p>
+
+<h2 class="subhead"><svg class="icon pos"><use xlink:href="#icon-git"></use></svg><a target="_blank" href="https://github.com/Archiving/ARKCraft-Code" style="text-decoration:none">ARKCraft Mod for Minecraft</a></h2>'
+<p style="margin-top:-15px">
+Work with Java and the LWJGL library, as well as the Minecraft API. A modification that adds features from the game ARK: Survival Evolved into the base game of Minecraft.
+</p>
+
+<h2 class="subhead"><svg class="icon pos"><use xlink:href="#icon-git"></use></svg><a target="_blank" href="https://github.com/Archiving/FF-NeuralNet" style="text-decoration:none">Feed Forward Neural Network</a></h2>'
+<p style="margin-top:-15px">
+A feed forward neural network with bias neurons to make predictions on a given data set. Text parsing is also included, and error values are stored and graphed in order to give an output of its performance on the given data set. 
+</p>
 </div>
 </body>
-
-
 </html>

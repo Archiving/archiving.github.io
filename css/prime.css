@@ -1,0 +1,118 @@
+
+
+h1.title {
+	font-size: 3em;
+	width:100%;
+	text-align:center;
+	margin-bottom:0;
+}
+
+hr.solid-line {
+	border-bottom: 1px solid black;
+	width:50%;
+}
+
+hr.vert-line {
+	height:100%;
+	border-right: 1px solid black;
+}
+
+BODY {
+	background-image: url("bg.jpg");
+	background-color: #cccccc;
+	background-attachment: fixed;
+	font-family: Lato, Tahoma, Helvetica, Arial, sans-serif;
+	color:white;
+}
+
+.img-circle {
+    border-radius: 50%;
+	width:25%;
+	height:25%;
+}
+
+#bibliography {
+	max-width:500px;
+	padding-top:45px;
+	display:inline;
+	float:right;
+}
+
+#bibliography-center {
+	display:inline;
+	float:center;
+}
+
+ul.navbar {
+	font-size:21px;	
+	list-style-type: none;
+	margin: 0;
+	padding-right:19px;
+	max-width:500px;
+}
+
+ul.navbar-center {
+	font-size:21px;
+	list-style-type:none;
+	padding-top:10px;
+	margin-left:65px;
+	max-width:1500px;
+}
+
+li {
+	display: inline;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.element {
+	font-size: 3em;
+	text-align:center;
+	margin-bottom:0;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  color:white;
+  text-decoration: none;
+  border-top: 4px solid #3fa46a;
+  border-bottom: 4px solid #3fa46a;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+a {
+	color: 	#ADD8E6;
+}
+
+#expertise SECTION{margin-bottom:2em}
+#expertise P{line-height:1.5;margin:0;margin-left:2.25em;}
+#expertise .icon{width:1em;height:1em;vertical-align:middle;padding-right:.25em}
+#expertise .pos{fill:#7CFC00}
+#expertise .neg{fill:#ca0107}
+#expertise{margin:auto;margin-top:30px;max-width:500px;}
+.subhead{font-size:1.5em;margin-left:1.4em;text-indent:-1.4em}
+.subtitle{font-size:1.5em;text-align:center;text-decoration:underline;}
