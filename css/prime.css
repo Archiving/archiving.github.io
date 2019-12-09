@@ -17,9 +17,29 @@ hr.solid-line {
             animation: fadein 2s;
 }
 
+.source {
+	text-decoration:none;
+	color:#DCDCDC;
+}
+
+.source:hover {
+	color:#8AE4FF;
+}
+
 hr.vert-line {
 	height:100%;
 	border-right: 1px solid black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #787878;
+  opacity: 70%;
+  color: #D3D3D3;
+  text-align: center;
 }
 
 BODY {
