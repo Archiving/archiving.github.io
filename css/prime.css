@@ -31,6 +31,12 @@ hr.vert-line {
 	border-right: 1px solid black;
 }
 
+body {
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -40,13 +46,6 @@ hr.vert-line {
   opacity: 70%;
   color: #D3D3D3;
   text-align: center;
-}
-
-BODY {
-	background-image: url("bg.jpg");
-	background-color: #cccccc;
-	background-attachment: fixed;
-	color:white;
 }
 
 .img-circle {
