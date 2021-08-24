@@ -49,11 +49,9 @@ body {
 }
 
 .img-circle {
-    border-radius: 50%;
-	width:12%;
-	height:12%;
-	display: block;
-	margin:auto;
+	border-radius:50%;
+	width:25%;
+	height:25%;
 }
 
 #bibliography {
