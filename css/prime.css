@@ -32,7 +32,7 @@ hr.vert-line {
 }
 
 body {
-	background-image: url(bg.jpg);
+	background-image: url(img/bg_image.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -95,6 +95,7 @@ li {
 .element {
 	font-size: 3em;
 	text-align:center;
+	color: white;
 	margin-bottom:0;
 	
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
