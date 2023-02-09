@@ -28,24 +28,13 @@ hr.solid-line {
 
 hr.vert-line {
 	height:100%;
-	border-right: 1px solid black;
+	border-right: 1px solid #4c566a;
 }
 
 body {
-	background-image: url(img/bg_image.jpg);
+	background-color:#2e3440;
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #787878;
-  opacity: 70%;
-  color: #D3D3D3;
-  text-align: center;
 }
 
 .img-circle {
@@ -95,7 +84,7 @@ li {
 .element {
 	font-size: 3em;
 	text-align:center;
-	color: white;
+	color: #e5e9f0;
 	margin-bottom:0;
 	
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -123,7 +112,7 @@ li {
 
 .link-1 {
   transition: 0.3s ease;
-  color:white;
+  color:#e5e9f0;
   text-decoration: none;
   border-top: 4px solid #3fa46a;
   border-bottom: 4px solid #3fa46a;
@@ -153,7 +142,7 @@ li {
 	margin-left: 50px;
 	margin-right: 50px;
 	padding: 30px;
-	background-color: white;
+	background-color:#d8dee9;
 	border-radius: 30px;
 	color: black;
 	text-align: center;
